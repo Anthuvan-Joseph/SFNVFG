@@ -29,10 +29,3 @@ Results are printed and saved as:
 
 ## Data Availability
 All data and code used in this study are available in this repository.
-
-## Authors
-- **Anthuvan Joseph Benjamin**
-
-## Contributors
-- **Vidya M**
-- **V Jude Annie Cynthia**
