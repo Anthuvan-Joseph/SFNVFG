@@ -5,7 +5,12 @@ This repository contains the Python implementation and output data supporting th
 **“Soft Fuzzy Number-Valued Fuzzy Graph: A Novel Hybrid Approach to Uncertainty Modeling”**
 
 ## Overview
-The code constructs and analyzes SFNVFGs using triangular fuzzy numbers. It computes α-cut intervals, supports both user-defined and automatically generated α-values, and performs parameter-wise graph analysis, including included and borderline vertices.
+The code constructs and analyzes SFNVFGs using triangular fuzzy numbers. It performs α-cut analysis, supports both user-defined and automatically generated α-values, and performs parameter-wise graph analysis, including included and borderline vertices.
+
+## Requirements
+Install dependencies using:
+
+pip install -r requirements.txt
 
 ## Input
 An Excel file with two sheets:
