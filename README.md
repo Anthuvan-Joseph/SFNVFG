@@ -10,7 +10,7 @@ The code constructs and analyzes SFNVFGs using triangular fuzzy numbers. It perf
 ## Requirements
 Install dependencies using:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Input
 An Excel file with two sheets:
