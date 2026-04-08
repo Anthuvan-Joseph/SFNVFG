@@ -1,10 +1,6 @@
 import pandas as pd
 import sys
 
-def alpha_cut(tri, a):
-    l, m, r = tri
-    return l + (m-l)*a, r - (r-m)*a
-
 def load_input_file(path):
     vdf = pd.read_excel(path, sheet_name="Vertices")
     edf = pd.read_excel(path, sheet_name="Edges")
@@ -35,6 +31,10 @@ def load_input_file(path):
     params = sorted(vdf["Parameter"].astype(str).unique())
 
     return nodes, edges, params
+
+def alpha_cut(tri, a):
+    l, m, r = tri
+    return l + (m-l)*a, r - (r-m)*a
 
 def compute_critical_alpha(l, m):
     denom = 1 - (m - l)
