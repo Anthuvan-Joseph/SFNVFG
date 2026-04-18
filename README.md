@@ -21,4 +21,4 @@ All data supporting the findings of this study are available in this repository.
 
 ## Code Availability
 
-The source code used in this study is not publicly included in this repository and is available from the corresponding author upon reasonable request.
+The source code used in this study is not publicly included in this repository and is available from the corresponding author upon request.
