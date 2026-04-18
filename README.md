@@ -1,31 +1,24 @@
 # Soft Fuzzy Number-Valued Fuzzy Graph (SFNVFG)
 
-This repository contains the Python implementation and output data supporting the manuscript:
+This repository contains supplementary materials supporting the manuscript:
 
 **“Soft Fuzzy Number-Valued Fuzzy Graph: A Novel Hybrid Approach to Uncertainty Modeling”**
 
 ## Overview
-The code constructs and analyzes SFNVFGs using triangular fuzzy numbers. It performs α-cut analysis, supports both user-defined and automatically generated α-values, and performs parameter-wise graph analysis, including included and borderline vertices.
 
-## Requirements
-Install dependencies using:
+This repository provides supplementary data, computational inputs, and generated results associated with the analysis of Soft Fuzzy Number-Valued Fuzzy Graphs (SFNVFGs). The study explores uncertainty modeling using soft set theory, fuzzy graphs, and fuzzy number-valued structures.
 
-`pip install -r requirements.txt`
+## Repository Contents
 
-## Input
-An Excel file with two sheets:
-- **Vertices:** Vertex, Parameter, l, m, r  
-- **Edges:** Source, Target, Parameter, l, m, r  
-
-## Usage
-Run the script and provide:
-- Excel file path  
-- Number of α-values (0 for automatic generation)  
-
-## Output
-Results are printed and saved as:
-
-`sfnvfg_results.xlsx`
+- Structured input datasets and computational parameters  
+- Final computational results  
+- Graph structures obtained from the SFNVFG at different α-values for each parameter
+- Heatmaps and graphical visualizations 
 
 ## Data Availability
-All data and code used in this study are available in this repository.
+
+All data supporting the findings of this study are available in this repository.
+
+## Code Availability
+
+The source code used in this study is not publicly included in this repository and is available from the corresponding author upon reasonable request.
